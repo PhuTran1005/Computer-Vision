@@ -31,5 +31,5 @@ class NearestNeighbor:
             distances = np.sum(np.abs(self.Xtr-X[i, :]), axis=1)
             min_index = np.argmin(distances) # get the index with smallest distancec
             Y_pred[i] = self.ytr[min_index]
-
+        print(Y_pred)
         return Y_pred

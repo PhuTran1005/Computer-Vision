@@ -1,0 +1,5 @@
+{
+    "image_train_path": "CS231\\ImageClassifier\\data\\train",
+    "image_test_path": "CS231\\ImageClassifier\\data\\test1",
+    "image_size": 224
+}
